@@ -1,0 +1,167 @@
+/* Main */
+
+body {
+    font-family: Verdana;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    position: relative;
+    background-color: #003B6D;
+    color: #fff;
+    padding: 60px;
+  }
+  
+  nav {
+    background-color: #676767;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #003B6D;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  #logo {
+    top: 10px; 
+    left: 20px; 
+    width: 50%;
+    max-width: 300px;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  footer {
+    background-color: #BDBDBD;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+/* Index Container Info */
+
+  .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-container {
+    margin-right: 150px; 
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px; 
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #6699CC;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+/* Index Aside */
+
+  .adopt-aside {
+    width: 35%;
+    float: left;
+    background-color: #003B6D;
+    padding: 150px;
+    margin-top: 100px;
+    font-size: 20px;
+    color: #f5f5f5;
+  }
+  
+  .content {
+    width: 20%;
+    float: left;
+    margin-top: 200px;
+  }
+
+/* About Us Info */
+
+.about_us-info {
+  width: 35%;
+  float: left;
+  background-color: #6699CC;
+  padding: 25px;
+  color:#f1f1f1
+}
+
+.content {
+  width: 20%;
+  float: left;
+}
+
+.meeting-container img {
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+
+/* Animal Container */
+
+.animal-info {
+    background-color: #6699CC;
+    color: #f1f1f1;
+    padding: 20px;
+  }
+ 
+  .content {
+    padding-left: 20px; 
+  }

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="mainstyle.css">
+  <title>Home</title>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo-link">
+      <img id="logo" src="PPP Logo.png" alt="Logo" class="logo" width="300px">
+    </a>  
+    <h1>Home</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about_us.html">About Us</a></li>
+      <li><a href="cats.html">Cats</a></li>
+      <li><a href="dogs.html">Dogs</a></li>
+      <li><a href="birds.html">Birds</a></li>
+    </ul>
+  </nav>
+  
+<section class="summary">
+    <p class="summary_of_company">Pets are nature's gift to humanity. It has been scientifically proven that opening our homes and hearts to a pet increases our longevity and improves our overall quality of life as well as the lives of our pets. At Pet Paradigm Professionals, our mission is to offer resources to help you care for your furry, scaly, feathery, and slimy loved ones. Our pet experts—or “Pexperts”—have been working with pet owners and professionals alike for the past twelve years. They offer one-on-one consultations with current and prospective pet owners as well as group presentations designed for veterinary, pet shelter, and pet breeding professionals.</p>
+</section>
+
+  <section class="main-content">
+    <div class="container">
+      <div class="image-container">
+        <img src="AdoptCat.png" alt="Adopt A Cat" width="500px">
+      </div>
+      <div class="image-container">
+        <img src="AdoptDog.png" alt="Adopt A Dog" width="500px">
+      </div>
+      <div class="image-container">
+        <img src="AdoptBird.png" alt="Adopt a Bird" width="500px">
+      </div>
+    </div>
+  </section>
+
+<section class="summary">
+    <p class="intro_to_adopt">Looking for basic pet care advice for the most common type of pets? Need additional help determining which type of pet is right for you and your family? We will work with you and provide tailored evidence-based pet care to ensure lifelong health and wellness of your new companion. </p>
+</section>
+
+<section class="adopt_info">
+    <h2>Looking for your new best friend? The following organizations can help you find and adopt the perfect companion:</h2>
+    <p>• General Adoption Resources: <a href="https://theshelterpetproject.org/">https://theshelterpetproject.org/</a></p>
+    <p>• ASPCA: <a href="https://www.aspca.org/">https://www.aspca.org/</a></p>
+    <p>• Fish Rescue: <a href="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/">https://www.sterlingshelter.org/humane-society/koi-fish-rescue/</a></p>
+    <p>• Snake Rescue: <a href="https://savethesnakes.org/snakerescuecall/">https://savethesnakes.org/snakerescuecall/</a></p>
+    <p>• Bird Rescue: <a href="https://ftlob.rescuegroups.org/">https://ftlob.rescuegroups.org/</a></p>
+</section>
+  
+  <aside class="adopt-aside">
+    <p class="happy_to_help_adopt"></p>We are also happy to help you navigate the adoption process! We will guide you through each step in the process from determining which type of pet is best suited for your family and home environment, to completing the necessary paperwork, to bringing your new loved one home. Please fill out our contact form to request a consultation. We will contact you within 48 hours to schedule a consultation. All fields are required. </p>
+  </aside>
+  
+<section class="main-content">
+    <div class="container">
+      <div class="form-container">
+        <h2>Contact Us</h2>
+        <form action="submit.php" method="POST" onsubmit="return validateForm()">
+          <label for="name"><strong>Name:</strong> </label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          
+          <label for="email"><strong>Email Address:</strong> </label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+          <label for="phonenumber"><strong>Phone Number:</strong> </label>
+          <input type="text" id="phonenumber" name="phonenumber" placeholder="Enter your phone number" required>
+
+          <label for="timezone"><strong>Time Zone:</strong> </label>
+          <input type="text" id="timezone" name="timezone" placeholder="Enter your time zone" required>
+
+          <label for="petname"><strong>Pet Name:</strong> </label>
+          <input type="text" id="petname" name="petname" placeholder="Enter your pet's name" required>
+
+          <label for="pettype"><strong>Pet Type:</strong> </label>
+          <input type="text" id="pettype" name="pettype" placeholder="Enter your pet type" required>
+
+          <label for="petage"><strong>Pet Age:</strong> </label>
+          <input type="text" id="petage" name="petage" placeholder="Enter your pet's age" required>
+          
+          <label for="concern"><strong>Concern:</strong> </label>
+          <textarea id="concern" name="concern" placeholder="Enter your concern" required></textarea>
+          
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+</section>
+
+  <footer>
+    <p>&copy; 2023 Paradigm Pet Professionals. All rights reserved.</p>
+  </footer> 
+
+</body>
+</html>
